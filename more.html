@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> GymBuddy </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="image/Black & White Minimalist Business Logo.png"></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="fitnessworkout.html">FITNESS WORKOUT</a></li>
+                    <li><a href="teams & policies.html">teams & policies</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+
+    <!--Mental Health -->
+
+    <section class="gmygroup">
+
+        <h1>our gmy group</h1>
+        <p> Lorem ipsum dolor sit amet consectetur </p>
+
+        <div class="row">
+            <div class="gmygroup-col">
+                <img src="image/pixels Image  (1).jpg" alt="">
+                <div class="layer">
+                    <h3>our gmy group</h3>
+                </div>
+            </div>
+
+            <div class="gmygroup-col">
+                <img src="image/pixels Image  (2).jpg" alt="">
+                <div class="layer">
+                    <h3>our gmy group</h3>
+                </div>
+            </div>
+
+            <div class="gmygroup-col">
+                <img src="image/pixels Image  (3).jpg" alt="">
+                <div class="layer">
+                    <h3>our gmy group</h3>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>The gym and mental health website are websites for people who are interested in creating a healthier and fitter lifestyle for themselves. 
+           It is designed to help these people stay motivated throughout their journey towards a healthier lifestyle, while also providing some tips 
+           and advice along the way on how to achieve this goal.</p>
+        <p>
+            made with
+        </p>
+    </section>
+
+
+
+
+    <!--just a little javaScript for the toggle menu-->
+    <script>
+        let navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

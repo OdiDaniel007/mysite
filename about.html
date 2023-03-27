@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+</head>
+
+<body>
+    <section class="header3">
+        <nav>
+            <a href="index.html"><img src="image/Black & White Minimalist Business Logo.png"></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="login.html">LOGIN</a></li>
+                        <li><a href="fitnessworkout.html">FITNESS WORKOUT</a></li>
+                        <li><a href="more.html">MORE</a></li>
+                        <li><a href="teams & policies.html">teams & policies</a></li>
+    
+                    </ul>                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>ABOUT GYM BUDDY</h1>
+
+            <p>
+                A gym buddy is someone who goes to the gym with you to work out. Having a gym buddy can be helpful
+                because it can provide accountability and motivation to stick to your exercise routine. It can also make
+                the experience more enjoyable and social. If you're looking for a gym buddy, you can ask friends or
+                family
+                members if they would like to join you, or you can try joining a gym that has group fitness classes or a
+                buddy program. It's important to choose a gym buddy who has similar fitness goals and a compatible
+                workout schedule. This website is a gym and mental health website are websites for people who are interested in
+                creating a healthier and fitter lifestyle for themselves. It is designed to help these people stay motivated throughout 
+                their journey towards a healthier lifestyle, while also providing some tips and advice along the way on how to achieve this goal. </p>
+        </div><br><br>
+
+    </section>
+
+    <section class="quotes">
+
+        <h3>
+           This page will cover different types of exercise,
+            from yoga to weight training and everything in between
+        </h3>
+
+        <div class="row">
+            <div class="quotes-col">
+                <h3> Yoga </h3>
+                <p>Yoga is a physical, mental, and spiritual discipline that originated in ancient India. It involves the practice of postures, breathing techniques, and meditation, with the goal of improving physical and mental
+                     well-being and achieving a state of relaxation and inner peace.
+                    There are many different styles of yoga, ranging from vigorous and physically demanding styles to more gentle and restorative practices. Some common styles include Hatha yoga, Vinyasa yoga, and Bikram yoga.
+                    In addition to the physical benefits, such as increased flexibility, strength, and balance, many people find that practicing yoga also helps to reduce stress and improve their overall sense of well-being.
+                    Yoga can be practiced by people of all ages and fitness levels, and can be modified to accommodate injuries or other physical limitations.
+                </p>
+            </div>
+
+            <div class="quotes-col">
+                <h3>Weight Training</h3>
+                <p>Weight training is a type of strength training that uses resistance to build muscle mass and improve physical performance. It involves using weights, 
+                   such as dumbbells or barbells, or other types of equipment, such as resistance bands or weight machines,
+                   to create resistance as you perform exercises. There are many different weight training exercises that you can do, including squats, bench press, deadlifts, and bicep curls. It's important to start with a weight that you can lift comfortably, 
+                   and gradually increase the weight as you get stronger. It's also important to use proper form to avoid injury and get the most out of your workouts.
+                   In addition to building muscle, weight training can also help you improve your strength, power, and endurance, and it can have a number of other health benefits, such as improving bone density, reducing the risk of injury,
+                   and boosting your metabolism. It's a popular form of exercise for people of all ages and fitness levels, and it can be done at home or at a gym
+                </p>
+            </div>
+
+            <div class="quotes-col">
+                <h3>Aerobic Exercise</h3>
+                <p>Aerobic exercise is a type of physical activity that involves the use of oxygen to effectively burn calories and strengthen the heart and lungs. It is also known as cardiovascular exercise because it helps to improve the function of the cardiovascular system, 
+                   which includes the heart, blood vessels, and blood. Some examples of aerobic exercise include walking, running, cycling, swimming, dancing, and jumping rope.
+                   Aerobic exercise is important for overall health and wellness because it can help to improve cardiovascular fitness, increase energy levels, and reduce the risk of chronic diseases such as obesity, type 2 diabetes, and heart disease. It can also help to improve mental health by reducing stress,
+                   anxiety, and depression. To get the most benefit from aerobic exercise, it is recommended to participate in at least 150 minutes of moderate-intensity aerobic activity or 75 minutes of vigorous-intensity aerobic activity per week. It is also important to incorporate strength training and flexibility 
+                   exercises into your routine to maintain muscle strength and improve flexibility.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>The gym and mental health website are websites for people who are interested in creating a healthier and fitter lifestyle for themselves. 
+            It is designed to help these people stay motivated throughout their journey towards a healthier lifestyle, while also providing some tips 
+            and advice along the way on how to achieve this goal.</p>
+         <p>
+             made with
+         </p>
+    </section>
+
+
+    <!--just a little javaScript for the toggle menu-->
+    <script>
+        let navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>
